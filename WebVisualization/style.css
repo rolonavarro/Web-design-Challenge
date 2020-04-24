@@ -1,22 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap');
+
 body {
-    padding: 0;
-    margin: 0;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 18px;
-    line-height: 150%;
-    color: #333;
-    background: #efeee7;
-  }
-
-header {
-    background: #333;
+    overflow-x:hidden;
+    font-family: 'Lato', sans-serif;
+    color:  #505962;
+    padding-top: 70px;
+    padding-bottom: 100px;
 }
 
-h1 {
-    padding: 20px 0;
-    margin: 0;
-    margin-bottom: 20px;
-    font-size: 28px;
-    color: #eee;
+/* Navbar styles */
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    background: rgba(0,0,0,.6)!important;
+}
+
+.navbar-nav li {
+    padding-right: .9rem;
+}
+
+.navbar-dar .navbar-nav .navbar-link{
+    color: white;
+    padding-top: .8rem;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(/WebVisualization/assets/Stock.png);
+    background-size: cover;
+    height: 45vh;
+    color:white;
+
+}
+
+h3 {
+    font-size: 15px;
+}
+
+#title{
     text-align: center;
+    padding-top: 25px;
 }
+
