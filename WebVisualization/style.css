@@ -4,7 +4,7 @@ body {
     overflow-x:hidden;
     font-family: 'Lato', sans-serif;
     color:  #505962;
-    padding-top: 70px;
+    padding-top: 50px;
     padding-bottom: 100px;
 }
 
@@ -27,9 +27,10 @@ body {
 
 /* Jumbotron */
 .jumbotron {
-    background-image: url(/WebVisualization/assets/Stock.png);
+    background-image: url(assets/Stock.png);
     background-size: cover;
     height: 45vh;
+    padding-top: 0px;
     color:white;
 
 }
@@ -41,5 +42,9 @@ h3 {
 #title{
     text-align: center;
     padding-top: 25px;
+}
+
+.container{
+    padding-top: 20px;
 }
 
